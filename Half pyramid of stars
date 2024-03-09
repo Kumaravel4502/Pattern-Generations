@@ -1,0 +1,6 @@
+# HALF PYRAMID OF STARS
+print("Half Pyramid Of Stars (*):")
+for i in range(5):
+    for j in range(i+1):
+        print("*",end=" ")
+    print()

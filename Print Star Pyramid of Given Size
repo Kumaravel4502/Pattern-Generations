@@ -1,0 +1,10 @@
+# Print Star Pyramid of Given Size
+print("Enter Number of Rows: ")
+row = int(input())
+print("Star Pyramid of " + str(row) + " Rows or Lines: ")
+for i in range(row):
+    for s in range(row, i, -1):
+        print(end=" ")
+    for j in range(i+1):
+        print(end="* ")
+    print()

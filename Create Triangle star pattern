@@ -1,0 +1,10 @@
+# Triangle  star pattern
+print("Triangle Star (*) Pattern: ")
+space = 8
+for i in range(5):
+    for j in range(space):
+        print(" ", end="")
+    space = space-2
+    for j in range(i+1):
+        print("* ", end="")
+    print()
