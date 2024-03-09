@@ -5,6 +5,7 @@ Pattern-Generations
 This repository contains various programs to generate different patterns using loops in Python.
 
 Patterns Included:
+
 1.Create Triangle star pattern: This program generates a triangle star pattern.
 
 2.Find IP Address: This program demonstrates how to find the IP address of a device.
